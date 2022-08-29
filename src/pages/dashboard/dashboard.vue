@@ -29,6 +29,9 @@ onShow(() => {
         </div>
       </div>
     </div>
+
+    <div i-carbon-campsite inline-block color="blue" />
+
     <div class="p-6">
       <UButton type="default" @click="showToast({ type: 'default', message: 'error' })">
         Show Toast
